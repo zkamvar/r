@@ -1,3 +1,3 @@
 install.packages("tidyverse")
 install.packages("rmarkdown")
-writeLines("R_LIBS_USER=/srv/rlibs", file = ".Renviron")
+writeLines("R_LIBS_USER=/srv/rlibs", "~/.Renviron")
