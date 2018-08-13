@@ -1,5 +1,6 @@
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("httr")
-install.packages("shinydashboard")
-install.packages('leaflet')
+install.packages("git2r")
+install.packages("devtools")
+git2r::clone("https://github.com/reconhub/epiflows", local_path = "epiflows")
+setwd("epiflows")
+devtools::install()
+
